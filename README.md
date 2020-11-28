@@ -12,9 +12,13 @@ cd laradmin
 
 npm install && npm run dev && npm audit fix
 
-Copie mesclando e sobrescrevendo todos os arquivos e pastas deste repositório para a pasta em seu desktop
+## Download do repositório
 
-/var/www/html/laradmin
+Clone o repositório ou faça donwload
+
+https://github.com/ribafs/laravel-admin
+
+Descompacte e copie mesclando e sobrescrevendo todos os arquivos e pastas deste repositório para a pasta /var/www/html/laradmin em seu desktop
 
 ## Crie o banco de dados e configure
 

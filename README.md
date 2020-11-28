@@ -58,6 +58,8 @@ https://ribafs.github.io/laravel-acl-exist/testing/
 
 ## Capturas das telas de usuários e da área pública
 
+Observe no menu das esquerda dos 4 usuários que tabelas cada um pode acessar.
+
 ![](img/publica.png)
 
 ![](img/super.png)

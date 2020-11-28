@@ -1,6 +1,6 @@
 # Laravel Admin
 
-Uma administração simples, tipo dashboard, para aplicativos laravel 8, usando ACL e o framework BootStrap 4.
+Uma administração simples para aplicativos laravel 8, usando ACL.
 
 ## Faça uma nova instalação do laravel 8
 
@@ -12,13 +12,9 @@ cd laradmin
 
 npm install && npm run dev && npm audit fix
 
-## Download do repositório
+Copie mesclando e sobrescrevendo todos os arquivos e pastas deste repositório para a pasta em seu desktop
 
-Clone o repositório ou faça donwload
-
-https://github.com/ribafs/laravel-admin
-
-Descompacte e copie mesclando e sobrescrevendo todos os arquivos e pastas deste repositório para a pasta /var/www/html/laradmin em seu desktop
+/var/www/html/laradmin
 
 ## Crie o banco de dados e configure
 
@@ -59,4 +55,17 @@ senha - 123456
 ## Sugestões para testar o ACL
 
 https://ribafs.github.io/laravel-acl-exist/testing/
+
+## Capturas das telas de usuários e da área pública
+
+![](img/publica.png)
+
+![](img/super.png)
+
+![](img/admin.png)
+
+![](img/manager.png)
+
+![](img/user.png)
+
 

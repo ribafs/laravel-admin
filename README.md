@@ -1,6 +1,6 @@
 # Laravel Admin
 
-Uma administração simples para aplicativos laravel 8, usando ACL.
+Uma administração simples, tipo dashboard, para aplicativos laravel 8, usando ACL e o framework BootStrap 4.
 
 ## Faça uma nova instalação do laravel 8
 

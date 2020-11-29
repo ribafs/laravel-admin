@@ -20,9 +20,21 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
-                <a class="navbar-brand bg-dark text-white" href="{{ url('/') }}">
+                @role('super', 'admin')
+                <a class="navbar-brand bg-dark text-white" href="{{ url('/admin/users') }}">
                     &nbsp;&nbsp;&nbsp;{{ config('app.name', 'Simple Laravel Admin') }}&nbsp;&nbsp;&nbsp;
                 </a>
+                @endrole
+                @role('manager', 'user')
+                <a class="navbar-brand bg-dark text-white" href="{{ url('/admin/clients') }}">
+                    &nbsp;&nbsp;&nbsp;{{ config('app.name', 'Simple Laravel Admin') }}&nbsp;&nbsp;&nbsp;
+                </a>
+                @endrole
+                @guest
+                <a class="navbar-brand bg-dark text-white" href="{{ url('/public') }}">
+                    &nbsp;&nbsp;&nbsp;{{ config('app.name', 'Simple Laravel Admin') }}&nbsp;&nbsp;&nbsp;
+                </a>
+                @endguest
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

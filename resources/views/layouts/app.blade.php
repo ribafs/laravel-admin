@@ -51,7 +51,7 @@
                         @if(!Auth::check())
                             <li><a class="nav-link" href="{{ url('/login') }}">Login</a></li>
                         @else
-                                {{ Auth::user()->name }}&nbsp;&nbsp;
+                                <div class="text-white">{{ Auth::user()->name }}</div>&nbsp;&nbsp;
 
                                 <li class="nav-item">
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST">

@@ -1,3 +1,7 @@
+body{
+    background-image:url('../img/bg6.jpg');
+}
+
 a:hover {
   color: #FFFF00 !important;
   text-decoration: none;
